@@ -71,6 +71,7 @@ TEMPLATES = [
 ]
 
 WSGI_APPLICATION = 'StoreKochi.wsgi.application'
+AUTH_USER_MODEL = 'accounts.Account'
 
 
 # Database
